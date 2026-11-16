@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "hubspawn",
+  "version": "${version}",
+  "name": "HubSpawn",
+  "description": "Teleports players to a configured hub spawn only when they join. Vanilla respawn behaviour is untouched.",
+  "authors": ["UpdateNotice"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": { "main": ["com.hubspawn.HubSpawnMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
